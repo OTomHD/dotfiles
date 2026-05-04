@@ -12,12 +12,14 @@
   cd ..
   rm -rf yay-bin
 ```
+
 * Enable the 32-bit repos add below into /etc/pacman.conf
 ```
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
 
+* Install package list files with the below
 ``` bash
 yay -S - < [PkgListFile]
 ```
