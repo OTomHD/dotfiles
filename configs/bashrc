@@ -1,0 +1,21 @@
+# Aliases
+
+alias ls='ls --color=auto'
+alias ll='ls -lav --ignore=..' # show long listing of all except ".."
+alias l='ls -lav --ignore=.?*' # show long listing but no hidden dotfiles except "."
+alias grep='grep --color=auto'
+alias rmd='rm -r'
+
+alias htop='btop'
+alias top='btop'
+
+alias userctl='systemctl --user'
+
+alias update='yay -Syu; flatpak update'
+
+alias d='docker'
+alias dc='docker compose'
+
+# Shell
+export PS1='[\u@\h \W]\$ '
+export PS2='-->'
