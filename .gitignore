@@ -1,0 +1,10 @@
+# Basic files / folders to ignore for testin purposes
+test
+build
+temp
+dist
+
+
+# Thunar configs file to not track
+configs/Thunar/accels.scm
+configs/Thunar/renamerrc

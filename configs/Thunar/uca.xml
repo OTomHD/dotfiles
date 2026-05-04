@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1691871293335005-1</unique-id>
+	<command>exo-open --launch TerminalEmulator</command>
+	<description>Open Terminal in current Directory</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>folder-magenta</icon>
+	<name>Create TempFS</name>
+	<submenu></submenu>
+	<unique-id>1697917988303859-1</unique-id>
+	<command>thunarTempFolder=$(mktemp -d); thunar $thunarTempFolder</command>
+	<description>Creates a directory in /tmp and changes directory into it</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Create symlink</name>
+	<submenu></submenu>
+	<unique-id>1704844718754641-1</unique-id>
+	<command>ln -Ts %f %n&quot; (symlink)&quot;</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
